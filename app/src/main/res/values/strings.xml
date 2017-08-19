@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">"S.Goley Filter Accelerometer"</string>
+    <string name="Header">Accelerometer Data</string>
+    <string name="before_sgfilter">Noised Data</string>
+    <string name="after_sgfilter">SG Filtered Data</string>
+    <string name="start"><b>START</b></string>
+    <string name="save"><b>SAVE</b></string>
+    <string name="stop"><b>STOP</b></string>
+    <string name="read"><b>READ</b></string>
+    <string name="xaccel" ><b>X_ACCEL</b> ⇒ %.4f</string>
+    <string name="yaccel" ><b>Y_ACCEL</b> ⇒ %.4f</string>
+    <string name="zaccel" ><b>Z_ACCEL</b> ⇒ %.4f</string>
+    <string name="xsgaccel" ><b>X_ACCEL_SG</b> ⇒ %.4f</string>
+    <string name="ysgaccel" ><b>Y_ACCEL_SG</b> ⇒ %.4f</string>
+    <string name="zsgaccel" ><b>Z_ACCEL_SG</b> ⇒ %.4f</string>
+    <string name="magaccel" ><b>√(∑(X)²)</b> ⇒ %.4f</string>
+    <string name="magsgaccel" ><b>√(∑(X_SG)²)</b> ⇒ %.4f</string>
+    <string name="scale1" >RED ⇒ FILTERED DATA , √(∑(X_SG)²)</string>
+    <string name="scale2">BLUE ⇒ DATA WITH NOISE , √(∑(X)²)</string>
+    <string name="not_saving">Not Saving</string>
+    <string name="saving">Number of Readings : %d</string>
+    <string name="fsvdat" formatted="false">File Saved at %s/%s</string>
+    <string name="fail">File I/O Failed!</string>
+    <string name="started">Started</string>
+</resources>
+
